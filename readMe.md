@@ -42,7 +42,7 @@ python -m vllm.entrypoints.openai.api_server \
 ```
 4. Run the Application 
 ```bash 
-streamlit run clinical_notes_digitizer.py
+streamlit run app.py
 ```
 
 ## Hardware Requirements: 

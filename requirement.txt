@@ -1,0 +1,21 @@
+# Core dependencies
+streamlit>=1.28.0
+pytesseract>=0.3.10
+Pillow>=9.5.0
+requests>=2.31.0
+
+# vLLM for local LLM serving
+vllm>=0.2.0
+
+# Alternative: If you want CPU-only support
+# vllm[cpu]>=0.2.0
+
+# For GPU acceleration (if available)
+torch>=2.0.0
+transformers>=4.30.0
+
+# Additional utilities
+uuid
+json5
+regex
+asyncio
